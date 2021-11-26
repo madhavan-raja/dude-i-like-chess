@@ -1,8 +1,10 @@
 import chess
 import random
 
+
 board = chess.Board()
 is_player_turn = True
+
 
 while not board.is_game_over():
   print(board)
